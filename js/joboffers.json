@@ -1,0 +1,113 @@
+
+{
+  "Company": "cisha GmbH",
+  "Jobs":
+  [{
+    "Job offer": "JavaScript Frontend Developer (m/w)",
+
+    "Title": "chess24.com is seeking a JavaScript Frontend Developer to begin immediately",
+    "Location": "Hamburg, Germany",
+
+    "What we expect":
+      [
+        "hast du mehrjährige Erfahrungen in der Frontend-Entwicklung",
+        "bist du Experte in der Programmierung mit JavaScript",
+        "sind jQuery, HTML5 und CSS3 dein tägliches Werkzeug",
+        "bringst du Erfahrung in der testgetriebener Entwicklung mit",
+        "zeichnet dich dein hoher und nachhaltiger Qualitätsanspruch aus",
+        "bist du was Technologien und Frameworks angeht stets up to date",
+        "möchtest deine Kenntnisse und Fähigkeiten weiter vertiefen",
+        "beherrschst du Englisch und/oder Deutsch in Wort und Schrift",
+        "runden eine schnelle Auffassungsgabe und eine hohe Kommunikationsfähigkeit dein Profil ab"
+      ],
+
+    "What we offer":
+      [
+        "Langfristige Perspektiven mit ausgezeichneten beruflichen und persönlichen Weiterentwicklungsmöglichkeiten in einem agilem, testgetriebener Entwicklerteam",
+        "Fachliches on-the-job Coaching in Form von Pair-Programming",
+        "Freie Verpflegung und vergünstigte Teilnahme am HVV ProfiCard Programm",
+        "Unterstützung beim Umzug für \"Neu-Hamburger\" und regelmäßige Team-Events",
+        "Ein lockeres Miteinander, damit du dich auf das Wesentliche konzentrieren kannst"
+      ],
+
+    "How can I apply?":
+      [
+        "Simply send your completed application to bewerbung@cisha.de or take a look at www.cisha.de to find out about our other career opportunities.",
+        "http://cisha.de/index.php/de/karriere"
+      ]
+
+  },
+
+  {
+    "Job offer": "User Interface Designer (m/w)",
+
+    "Title": "chess24.com is seeking an User Interface Designer to begin immediately",
+    "Location": "Hamburg, Germany",
+
+    "What we expect":
+      [
+        "verfügst du über einen Hochschulabschluss oder eine abgeschlossene Ausbildung im Bereich Game Design, Web Design oder vergleichbaren Feldern",
+        "hast du bereits einschlägige Berufserfahrung als Designer, idealerweise auch als UX oder Usablility Experte",
+        "bist du immer eigenständig auf der Suche nach den neusten Trends der Game-Branche",
+        "programmierst und designst du immer unter Berücksichtigung der Usability",
+        "unterstützt du die Realisierung deiner Designs sowohl im Web also auch auf Mobile Devices",
+        "schaffst du mit deiner Kreativität fesselnde Anreize und machst damit jedes Produkt zu etwas Besonderen",
+        "zeichnet dich dein hoher und nachhaltiger Qualitätsanspruch aus",
+        "besitzt du Grundkenntnisse im Umgang mit Html5, Css3 und JavaScript",
+        "beherrschst du Deutsch und/ oder Englisch in Wort und Schrift",
+        "runden eine schnelle Auffassungsgabe und eine hohe Kommunikationsfähigkeit dein Profil ab"
+      ],
+
+    "What we offer":
+      [
+        "Langfristige Perspektiven mit ausgezeichneten beruflichen und persönlichen Weiterentwicklungsmöglichkeiten in einem agilem, testgetriebener Entwicklerteam",
+        "Fachliches on-the-job Coaching in Form von Pair-Programming",
+        "Freie Verpflegung und vergünstigte Teilnahme am HVV ProfiCard Programm",
+        "Unterstützung beim Umzug für \"Neu-Hamburger\" und regelmäßige Team-Events",
+        "Ein lockeres Miteinander, damit du dich auf das Wesentliche konzentrieren kannst"
+      ],
+
+    "How can I apply?":
+      [
+        "Simply send your completed application to bewerbung@cisha.de or take a look at www.cisha.de to find out about our other career opportunities.",
+        "http://cisha.de/index.php/de/karriere"
+      ]
+
+  },
+
+  {
+    "Job offer": "DevOps (m/w)",
+
+    "Title": "chess24.com is seeking a DevOps to begin immediately",
+    "Location": "Hamburg, Germany",
+
+    "What we expect":
+      [
+        "hast du mehrjährige professionelle Erfahrungen in der Backend-Entwicklung",
+        "entwickelst du eigenständig mit PHP5 und MySQL und bist fit in Linux und Co",
+        "bist du geübt im Umgang mit verschiedenen Lasttesttools wie z.B. JMeter",
+        "hast du idealerweise bereits Erfahrungen in der automatischen Konfiguration mit Chef  oder Puppet",
+        "verfügst du über einen Hochschulabschluss in Informatik oder eine vergleichbare Qualifikation",
+        "verfügst du nach Möglichkeit über Grundkenntnisse der Jenkins-Konfiguration",
+        "kannst du als besonderes Highlight mit Erfahrungen in AWS punkten",
+        "beherrschst du Englisch und/oder Deutsch in Wort und Schrift",
+        "runden dein analytisches Denken und deine konzeptionelle Stärke dein Profil ab"
+      ],
+
+    "What we offer":
+      [
+        "Langfristige Perspektiven mit ausgezeichneten beruflichen und persönlichen Weiterentwicklungsmöglichkeiten in einem agilem, testgetriebener Entwicklerteam",
+        "Fachliches on-the-job Coaching in Form von Pair-Programming",
+        "Freie Verpflegung und vergünstigte Teilnahme am HVV ProfiCard Programm",
+        "Unterstützung beim Umzug für \"Neu-Hamburger\" und regelmäßige Team-Events",
+        "Ein lockeres Miteinander, damit du dich auf das Wesentliche konzentrieren kannst"
+      ],
+
+    "How can I apply?":
+      [
+        "Simply send your completed application to bewerbung@cisha.de or take a look at www.cisha.de to find out about our other career opportunities.",
+        "http://cisha.de/index.php/de/karriere"
+      ]
+
+  }]
+}

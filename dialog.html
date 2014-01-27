@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html,
+            body {
+                height: 100%;
+            }
+            .show-dialog {
+                position: absolute;
+                margin-top: -5px;
+                margin-left: -10px;
+                top: 50%;
+                left: 50%;
+            }
+            .overlay {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                text-align: center;
+                background: rgba(0,0,0, .5);
+                transition: opacity .5s ease-out;
+            }
+            .overlay:before {
+                content: '';
+                display: inline-block;
+                margin-right: -0.25em;
+                height: 100%;
+                vertical-align: middle;
+            }
+            .overlay.hidden {
+                opacity: 0;
+            }
+            .dialog {
+                display: inline-block;
+                padding: 25px 20px;
+                width: 500px;
+                vertical-align: middle;
+                background: #fff;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0, .2);
+                transition:
+                    opacity .05s ease-out,
+                    transform .2s ease-out;
+                transition:
+                    opacity .05s ease-out,
+                    -webkit-transform .2s ease-out;
+            }
+            .overlay.hidden .dialog {
+                -webkit-transform: translateY(-200%);
+                transform: translateY(-200%);
+                opacity: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="show-dialog">Show!</button>
+
+        <div class="overlay hidden" style="display: none">
+            <div class="dialog">
+                <h2>What is lorem ipsum</h2>
+                <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <button class="more">More!</button>
+                <button class="reset">Reset!</button>
+            </div>
+        </div>
+
+        <script>
+            (function() {
+                var $ = document.querySelector.bind(document),
+                    p = $('.text'),
+                    text = p.innerText;
+                $('.show-dialog').addEventListener('click', function(){
+                    var overlay = $('.overlay');
+                    overlay.style.display = '';
+                    setTimeout(function(){
+                        overlay.classList.remove('hidden');
+                    }, 0);
+                });
+                $('.more').addEventListener('click', function(){
+                    p.innerText += text;
+                });
+                $('.reset').addEventListener('click', function(){
+                    p.innerText = text;
+                });
+            }());
+        </script>
+    </body>
+</html>

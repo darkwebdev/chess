@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+            }
+            .board {
+                position: relative;
+                height: 1000px;
+                width: 1000px;
+                background: url('img/board0.jpg') no-repeat -115px -115px;
+                background-size: 1196px;
+            }
+            .board div {
+                position: absolute;
+                margin-left: 140px;
+                margin-top: 100px;
+                height: 100px;
+                cursor: pointer;
+                background-image: url(img/pieces-sprite.png);
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                transition: all .2s ease-out;
+            }
+            .board :hover {
+                -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+
+            .black-rook {
+                width: 28px;
+                background-position: -310px -20px;
+            }
+            .black-knight {
+                width: 28px;
+                background-position: -340px -20px;
+            }
+            .black-bishop {
+                width: 32px;
+                background-position: -274px -10px;
+            }
+            .black-queen {
+                width: 32px;
+                background-position: -236px -4px;
+            }
+            .black-king {
+                width: 32px;
+                background-position: -202px 0;
+            }
+            .black-pawn {
+                width: 28px;
+                background-position: -372px -25px;
+            }
+
+            .white-rook {
+                width: 28px;
+                background-position: -60px -20px;
+            }
+            .white-knight {
+                width: 28px;
+                background-position: -30px -20px;
+            }
+            .white-bishop {
+                width: 32px;
+                background-position: -92px -10px;
+            }
+            .white-queen {
+                width: 32px;
+                background-position: -130px -4px;
+            }
+            .white-king {
+                width: 32px;
+                background-position: -165px 0;
+            }
+            .white-pawn {
+                width: 28px;
+                background-position: 0 -25px;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="board">
+            <div class="black-rook" style="top: -2px; left: -2px;"></div>
+            <div class="black-knight" style="top: -2px; left: 100px;"></div>
+            <div class="black-bishop" style="top: -2px; left: 200px;"></div>
+            <div class="black-queen" style="top: -2px; left: 300px;"></div>
+            <div class="black-king" style="top: -2px; left: 400px;"></div>
+            <div class="black-bishop" style="top: -2px; left: 500px;"></div>
+            <div class="black-knight" style="top: -2px; left: 600px;"></div>
+            <div class="black-rook" style="top: -2px; left: 700px;"></div>
+
+            <div class="black-pawn" style="top: 100px; left: -2px;"></div>
+            <div class="black-pawn" style="top: 100px; left: 100px;"></div>
+            <div class="black-pawn" style="top: 100px; left: 200px;"></div>
+            <div class="black-pawn" style="top: 100px; left: 300px;"></div>
+            <div class="black-pawn" style="top: 100px; left: 400px;"></div>
+            <div class="black-pawn" style="top: 100px; left: 500px;"></div>
+            <div class="black-pawn" style="top: 100px; left: 600px;"></div>
+            <div class="black-pawn" style="top: 100px; left: 700px;"></div>
+
+            <div class="white-pawn" style="top: 600px; left: -2px;"></div>
+            <div class="white-pawn" style="top: 600px; left: 100px;"></div>
+            <div class="white-pawn" style="top: 600px; left: 200px;"></div>
+            <div class="white-pawn" style="top: 600px; left: 300px;"></div>
+            <div class="white-pawn" style="top: 600px; left: 400px;"></div>
+            <div class="white-pawn" style="top: 600px; left: 500px;"></div>
+            <div class="white-pawn" style="top: 600px; left: 600px;"></div>
+            <div class="white-pawn" style="top: 600px; left: 700px;"></div>
+
+            <div class="white-rook" style="top: 700px; left: -2px;"></div>
+            <div class="white-knight" style="top: 700px; left: 100px;"></div>
+            <div class="white-bishop" style="top: 700px; left: 200px;"></div>
+            <div class="white-king" style="top: 700px; left: 300px;"></div>
+            <div class="white-queen" style="top: 700px; left: 400px;"></div>
+            <div class="white-bishop" style="top: 700px; left: 500px;"></div>
+            <div class="white-knight" style="top: 700px; left: 600px;"></div>
+            <div class="white-rook" style="top: 700px; left: 700px;"></div>
+        </section>
+    </body>
+</html>

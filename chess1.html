@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+            }
+            .board {
+                position: relative;
+                display: inline-block;
+                margin: 1em;
+                min-width: 240px;
+                font-size: 60px;
+                white-space: nowrap;
+                border: 1em solid #530;
+                box-shadow: .1em .1em .2em .02em rgba(0,0,0, .3);
+            }
+            .board:before,
+            .board:after {
+                position: absolute;
+                font: 0.3em arial, sans-serif;
+                color: #974;
+            }
+            .board:before {
+                content: '12345678';
+                width: 1em;
+                top: 0.1em;
+                left: -0.9em;
+                line-height: 5.6em;
+                font-size: .27em;
+                letter-spacing: 1em;
+                white-space: normal;
+                word-wrap: break-word;
+            }
+            .board:after {
+                content: 'abcdefgh';
+                top: -1.3em;
+                left: 2.1em;
+                letter-spacing: 4.5em;
+            }
+            .board div {
+                position: relative;
+                display: inline-block;
+                width: 1.5em;
+                height: 1.5em;
+                vertical-align: middle;
+                cursor: pointer;
+                background: #edc; /* light cells */
+                -webkit-perspective: 1000;
+                -webkit-transform: translate3d(0,0,0); /* hacks for chrome antialiasing */
+            }
+            .board :nth-child(even) {
+                background: #974; /* dark cells */
+            }
+            .board :after {
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                text-shadow: 2px 2px 5px rgba(0,0,0, .5);
+                color: #000;
+                transition: all .2s ease-out;
+            }
+            .board :hover:after {
+                -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+            .board .white:after {
+                color: #fff;
+            }
+            .king:after { content: '\265a'; }
+            .queen:after { content: '\265b'; }
+            .rook:after { content: '\265c'; }
+            .bishop:after { content: '\265d'; }
+            .knight:after { content: '\265e'; }
+            .pawn:after { content: '\265f'; }
+
+            @media all and (max-width: 960px), (max-height: 960px) {
+                .board { font-size: 50px; }
+            }
+            @media all and (max-width: 800px), (max-height: 800px) {
+                .board { font-size: 40px; }
+            }
+            @media all and (max-width: 640px), (max-height: 640px) {
+                .board { font-size: 30px; }
+            }
+            @media all and (max-width: 480px), (max-height: 480px) {
+                .board { font-size: 20px; }
+            }
+        </style>
+    </head>
+    <body>
+        <section class="board">
+            <div class="rook"></div><div class="knight"></div><div class="bishop"></div><div class="queen"></div><div class="king"></div><div class="bishop"></div><div class="knight"></div><div class="rook"></div><br>
+            <div class="pawn"></div><div class="pawn"></div><div class="pawn"></div><div class="pawn"></div><div class="pawn"></div><div class="pawn"></div><div class="pawn"></div><div class="pawn"></div><br>
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><br>
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><br>
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><br>
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><br>
+            <div class="white pawn"></div><div class="white pawn"></div><div class="white pawn"></div><div class="white pawn"></div><div class="white pawn"></div><div class="white pawn"></div><div class="white pawn"></div><div class="white pawn"></div><br>
+            <div class="white rook"></div><div class="white knight"></div><div class="white bishop"></div><div class="white king"></div><div class="white queen"></div><div class="white bishop"></div><div class="white knight"></div><div class="white rook"></div><br>
+        </section>
+    </body>
+</html>

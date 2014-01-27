@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="columns">
+        <header>
+            <h1>{Company}</h1><h2>vacancies</h2>
+        </header>
+
+        {#Jobs}
+        <article class="panel">
+            <h3>{Job offer}{?Location}<small> in {Location}</small>{/Location}</h3>
+
+            <p><em>{Title}</em></p>
+
+            <h4>What we expect</h4>
+            {#What we expect}
+            <ul>
+                <li>{.}</li>
+            </ul>
+            {/What we expect}
+
+            <h4>What we offer</h4>
+            {#What we offer}
+            <ul>
+                <li>{.}</li>
+            </ul>
+            {/What we offer}
+
+            <h4>How can I apply?</h4>
+            <p>{How can I apply?[0]}</p>
+            <p><a href="{How can I apply?[1]}" class="button">More</a></p>
+        </article>
+        {/Jobs}
+    </div>
+</div>
